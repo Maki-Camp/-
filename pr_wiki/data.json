@@ -57381,11 +57381,11 @@
       "wikiRevisionDate": "2026-05-18",
       "summary": "This page lists all available commands for use by private server owners.\n\nThis is not inclusive of /votekick or /changelogs, as they can be used anywhere.",
       "sections": {
-        "team": "This command can be used by anyone in a private server to force themselves onto either Team 1 or 2 during team-based gamemodes. Leave 'team' blank if no team is preferred.",
-        "map": "This command sets the map for the round, given one has already started.\n\nThe names for maps are as follows:\n- haunted_mansion\n- crossroads\n- plates_of_faith\n- plates_of_faith_old\n- raving_raceway\n- shipping_dock\n- the_heights\n- the_heights_old\n- titanic\n- titanic_2\n- arena\n- arena_flat\n- roblox_building\n- glass_houses\n- creed_town\n- apocalypse_rising\n- town_of_robloxia\n- mad_labs\n- bloxburg\n- raven_rock\n- smashbros\n- shooting_range",
-        "gamemode": "This command sets the current gamemode, given the round has already started.\n\nThe available gamemodes are as follows:\n- crown_teams\n- deathmatch\n- gungame\n- remixroundabout\n- team_capturepoints\n- team_deathmatch\n- team_kingofthehill\n- team_deathmatch_4\n- team_kingofthehill_4\n- team_subspace\n- team_subspace_transport\n- capture_flag",
-        "round attributes": "(using the command again will un-pause the timer)",
-        "misc": "(sets weather to random)"
+        "team": "[/setteam <player> <team>]\nThis command can be used by anyone in a private server to force themselves onto either Team 1 or 2 during team-based gamemodes. Leave 'team' blank if no team is preferred.\n\n[/swapteam]\nSwitch to the opposite team in team-based gamemodes.",
+        "map": "[/setmap <map>]\nThis command sets the map for the round, given one has already started.\n\nThe names for maps are as follows:\n- haunted_mansion\n- crossroads\n- plates_of_faith\n- plates_of_faith_old\n- raving_raceway\n- shipping_dock\n- the_heights\n- the_heights_old\n- titanic\n- titanic_2\n- arena\n- arena_flat\n- roblox_building\n- glass_houses\n- creed_town\n- apocalypse_rising\n- town_of_robloxia\n- mad_labs\n- bloxburg\n- raven_rock\n- smashbros\n- shooting_range",
+        "gamemode": "[/setgamemode <mode>]\nThis command sets the current gamemode, given the round has already started.\n\nThe available gamemodes are as follows:\n- crown_teams\n- deathmatch\n- gungame\n- remixroundabout\n- team_capturepoints\n- team_deathmatch\n- team_kingofthehill\n- team_deathmatch_4\n- team_kingofthehill_4\n- team_subspace\n- team_subspace_transport\n- capture_flag",
+        "round attributes": "[/roundtime <seconds>]\nSets the current amount of remaining time (in seconds).\n\n[/pausetime]\nStops the round timer from ticking down (using the command again will un-pause the timer).\n\n[/endround]\nImmediately ends the current gamemode.\n\n[/resetremixcharges]\nSets everyone's Remix Ability charge to 0.\n\n[/resetstats]\nSets everyone's kills/damage/healing/mitigation leaderboard stats to 0.",
+        "misc": "[/freecam]\nEnables/disables a free camera mode instead of spawning.\n\n[/weather]\nInstantly randomizes lighting & weather (sets weather to random)."
       },
       "uid": "misc/commands"
     },
