@@ -683,9 +683,26 @@ function render() {
   else if (!SEC[r.sec]) main.innerHTML = notFound();
   else if (r.id) main.innerHTML = UID[uid] ? pageArticle(UID[uid].it, r.sec) : notFound();
   else main.innerHTML = pageCatalog(r.sec);
+  watchAside();
   const t = r.id && UID[uid] ? UID[uid].it.name : (SEC[r.sec] ? SEC[r.sec].label : '');
   document.title = (t ? t + ' – ' : '') + 'Project Remix 한국어 위키';
 }
+/* 정보 상자가 화면보다 길면 페이지와 함께 내려가다가 아래쪽 끝이 보일 때 고정되도록 sticky top을 맞춘다 */
+const ASIDE_TOP = 64, ASIDE_GAP = 16;
+const asideRO = 'ResizeObserver' in window ? new ResizeObserver(() => fitAside()) : null;
+function fitAside() {
+  const a = document.querySelector('.aside');
+  if (!a) return;
+  const h = a.offsetHeight;
+  a.style.top = (ASIDE_TOP + h + ASIDE_GAP > window.innerHeight ? Math.min(ASIDE_TOP, window.innerHeight - h - ASIDE_GAP) : ASIDE_TOP) + 'px';
+}
+function watchAside() {
+  if (asideRO) asideRO.disconnect();
+  const a = document.querySelector('.aside');
+  if (a && asideRO) asideRO.observe(a);
+  fitAside();
+}
+window.addEventListener('resize', fitAside);
 function notFound() {
   return `<div class="empty"><h2 style="margin:0 0 8px;color:var(--text)">문서를 찾을 수 없습니다</h2><p>주소가 바뀌었거나 삭제된 항목일 수 있습니다.</p><button class="btn pri" data-nav="home">홈으로</button></div>`;
 }
