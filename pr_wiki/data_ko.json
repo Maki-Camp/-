@@ -4464,7 +4464,7 @@
         }
       ],
       "media": {
-        "icon": "assets/DefaultCastingStaffFull.png",
+        "icon": "assets/Casting_Staff_Swiftcast_Icon.png",
         "render": "assets/DefaultCastingStaffFull.png",
         "gallery": [
           {
@@ -5665,7 +5665,7 @@
         "(구버전 가라앉은 고지대 획득 방법) 맵 우측 스폰 지점에서 다크하트가 놓인 작은 섬을 확인한 뒤, 좌측에서 섬이 정면에 보이도록 이동해 투명해지는 다리의 시작 지점을 아래쪽에서 파악하여 일직선으로 건너갈 수 있었습니다. 푸른 불꽃 고리 중앙의 다크하트를 획득한 뒤 포탈을 타면 중앙 포탈로 복귀합니다."
       ],
       "media": {
-        "icon": "assets/DarkheartFull.png",
+        "icon": "assets/Linked_Sword_Riposte_Icon.png",
         "render": "assets/DarkheartFull.png",
         "gallery": [
           {
@@ -9430,7 +9430,7 @@
         "장착하고 있는 동안 현재 보유 중인 깃발이 무기에 표시됩니다."
       ],
       "media": {
-        "icon": "assets/FlagoonFull.png",
+        "icon": "assets/Flagoon_Icon.png",
         "render": "assets/FlagoonFull.png",
         "gallery": [
           {
@@ -13335,7 +13335,7 @@
       "counterTips": [],
       "trivia": [],
       "media": {
-        "icon": "assets/DefaultLegacyBurstRifleFull.png",
+        "icon": "assets/Legacy_Burst_Rifle_Icon.png",
         "render": "assets/DefaultLegacyBurstRifleFull.png",
         "gallery": [
           {
@@ -16879,7 +16879,7 @@
         }
       ],
       "media": {
-        "icon": "assets/DefaultMinigunFull.png",
+        "icon": "assets/Rotary_Chaingun_Warden_Icon.png",
         "render": "assets/DefaultMinigunFull.png",
         "gallery": [],
         "skins": []
@@ -24121,7 +24121,7 @@
         "과거에는 구버전 아카이브인 'Project Remix 1500'과 'Project Remix 5000'에서 저격소총을 플레이해 볼 수 있었으나(최종 밸런스와는 상이), 현재는 두 게임 모두 닫힌 상태입니다."
       ],
       "media": {
-        "icon": "assets/SniperRifleFull.png",
+        "icon": "assets/Sniper_Rifle_Icon.png",
         "render": "assets/SniperRifleFull.png",
         "gallery": [
           {
@@ -27048,7 +27048,7 @@
         }
       ],
       "media": {
-        "icon": "assets/DefaultSummoner_sCodexFull.png",
+        "icon": "assets/Summoner_s_Codex_Aetherflow_Icon.png",
         "render": "assets/DefaultSummoner_sCodexFull.png",
         "gallery": [
           {
