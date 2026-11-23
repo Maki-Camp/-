@@ -63835,7 +63835,7 @@
       "wikiRevisionDate": "2026-05-18",
       "summary": "개인 서버 소유자가 사용할 수 있는 명령어 목록입니다. 채팅창에 입력해서 사용합니다. 공용 서버를 포함해 어디서나 쓸 수 있는 /votekick, /changelogs는 이 목록에 포함되지 않습니다.",
       "sections": {
-        "팀 (Team)": "[/setteam <player> <team>]\n개인 서버에서는 누구나 사용할 수 있습니다. 팀 기반 게임 모드에서 자신을 팀 1 또는 팀 2로 강제 배정합니다. 원하는 팀이 없다면 team 칸을 비워 두세요.\n\n[/swapteam]\n팀 기반 게임 모드에서 반대 팀으로 이동합니다.",
+        "팀 (Team)": "[/setteam <player> <team>]\n서버 소유자만 사용할 수 있습니다. 팀 기반 게임 모드에서 지정한 플레이어를 팀 1 또는 팀 2로 고정합니다. team 칸을 비우면 고정이 풀립니다.\n\n[/swapteam]\n팀 기반 게임 모드에서 반대 팀으로 이동합니다.",
         "맵 (Map)": "[/setmap <map>]\n라운드가 이미 시작된 상태에서 현재 라운드의 맵을 바꿉니다. 이 명령어를 쓰면 맵/게임 모드 투표가 나타나지 않습니다.\n\n사용 가능한 맵 ID:\n- haunted_mansion\n- crossroads\n- plates_of_faith\n- plates_of_faith_old\n- raving_raceway\n- shipping_dock\n- the_heights\n- the_heights_old\n- titanic\n- titanic_2\n- arena\n- arena_flat\n- roblox_building\n- glass_houses\n- creed_town\n- apocalypse_rising\n- town_of_robloxia\n- mad_labs\n- bloxburg\n- raven_rock\n- smashbros\n- shooting_range",
         "게임 모드 (Gamemode)": "[/setgamemode <mode>]\n라운드가 이미 시작된 상태에서 현재 게임 모드를 바꿉니다. 이 명령어를 쓰면 맵/게임 모드 투표가 나타나지 않습니다.\n\n사용 가능한 게임 모드 ID:\n- crown_teams\n- deathmatch\n- gungame\n- remixroundabout\n- team_capturepoints\n- team_deathmatch\n- team_kingofthehill\n- team_deathmatch_4\n- team_kingofthehill_4\n- team_subspace\n- team_subspace_transport\n- capture_flag",
         "라운드 설정 (Round attributes)": "[/roundtime <seconds>]\n현재 라운드의 남은 시간을 지정한 초로 설정합니다.\n\n[/pausetime]\n라운드 타이머를 멈춥니다. 명령어를 다시 입력하면 일시정지가 풀립니다.\n\n[/endround]\n현재 라운드를 즉시 끝냅니다.\n\n[/resetremixcharges]\n모든 플레이어의 리믹스 궁극기 충전량을 0으로 만듭니다.\n\n[/resetstats]\n모든 플레이어의 리더보드 기록(처치·피해량·치유량·피해 경감량)을 0으로 초기화합니다.",
