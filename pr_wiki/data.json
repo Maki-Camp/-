@@ -4,6 +4,24 @@
     "schemaVersion": "1.0",
     "generatedAt": "2026-11-23T13:34:15Z",
     "wikiExportFile": "Project+Remix+Wiki-20261123042334.xml",
+    "attribution": {
+      "content": {
+        "source": "Project Remix Wiki (Miraheze)",
+        "sourceUrl": "https://projectremix.miraheze.org/",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "Extracted from the wiki export into structured data; some stats updated from official patch notes.",
+        "note": "Content in this file is distributed under the same CC BY-SA 4.0 license."
+      },
+      "patchNotes": {
+        "source": "Project Remix official Discord update announcements",
+        "note": "Text in patchHistory/updates is the developers' announcements and is not covered by CC BY-SA 4.0."
+      },
+      "images": {
+        "note": "Game images are copyright of their respective owners and are not covered by CC BY-SA 4.0."
+      },
+      "unofficial": "Unofficial fan resource, not affiliated with the Project Remix developers or Roblox."
+    },
     "discordDateRange": {
       "from": "2023-10-19",
       "to": "2026-11-22"

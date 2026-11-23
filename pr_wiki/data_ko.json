@@ -6,6 +6,24 @@
     "generatedAt": "2026-11-23T14:10:48Z",
     "sourceData": "data.json",
     "wikiExportFile": "Project+Remix+Wiki-20261123042334.xml",
+    "attribution": {
+      "content": {
+        "source": "Project Remix Wiki (Miraheze)",
+        "sourceUrl": "https://projectremix.miraheze.org/",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "원문 위키 내용을 구조화된 데이터로 추출하고 한국어로 번역·요약·재구성했으며, 일부 스탯은 공식 패치노트를 반영해 갱신함.",
+        "note": "이 파일의 문서 내용은 원문과 같은 CC BY-SA 4.0으로 배포됩니다."
+      },
+      "patchNotes": {
+        "source": "Project Remix official Discord update announcements",
+        "note": "patchHistory·updates의 원문은 개발진의 공지이며 CC BY-SA 4.0 적용 대상이 아닙니다."
+      },
+      "images": {
+        "note": "게임 이미지의 저작권은 각 권리자에게 있으며 CC BY-SA 4.0 적용 대상이 아닙니다."
+      },
+      "unofficial": "Project Remix 개발진 및 Roblox와 관련 없는 비공식 팬 자료입니다."
+    },
     "discordDateRange": {
       "from": "2023-10-19",
       "to": "2026-11-22"
