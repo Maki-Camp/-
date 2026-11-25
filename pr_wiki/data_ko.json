@@ -15,6 +15,7 @@
         "changes": "원문 위키 내용을 구조화된 데이터로 추출하고 한국어로 번역·요약·재구성했으며, 일부 스탯은 공식 패치노트를 반영해 갱신함.",
         "note": "이 파일의 문서 내용은 원문과 같은 CC BY-SA 4.0으로 배포됩니다."
       },
+      "disclaimer": "원문 위키와 공식 패치노트를 바탕으로 만들어, 실제 게임과 다르거나 부정확한 정보가 있을 수 있습니다.",
       "patchNotes": {
         "source": "Project Remix official Discord update announcements",
         "note": "patchHistory·updates의 원문은 개발진의 공지이며 CC BY-SA 4.0 적용 대상이 아닙니다."

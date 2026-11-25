@@ -13,6 +13,7 @@
         "changes": "Extracted from the wiki export into structured data; some stats updated from official patch notes.",
         "note": "Content in this file is distributed under the same CC BY-SA 4.0 license."
       },
+      "disclaimer": "Built from the source wiki and official patch notes, so some information may differ from the actual game or be inaccurate.",
       "patchNotes": {
         "source": "Project Remix official Discord update announcements",
         "note": "Text in patchHistory/updates is the developers' announcements and is not covered by CC BY-SA 4.0."
